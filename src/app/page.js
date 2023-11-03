@@ -167,9 +167,9 @@ export default function Home() {
             </span>
           </h2>
           <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            High intent leads to a high conversion rate and that's exactly what
+            High intent leads to a high conversion rate and that is exactly what
             Google Ads is all about. You target the right keywords, you reach
-            the right audience. Let's talk!
+            the right audience.
           </p>
         </a>
         <a
