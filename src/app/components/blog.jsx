@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 const posts = [
   {
     id: 1,
@@ -12,8 +14,7 @@ const posts = [
       name: "Michael Foster",
       role: "Co-Founder / CTO",
       href: "#",
-      imageUrl:
-        "https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
+      imageUrl: "",
     },
   },
   // More posts...
@@ -60,10 +61,11 @@ const blog = () => {
                 </p>
               </div>
               <div className="relative mt-8 flex items-center gap-x-4">
-                <img
+                <Image
                   src={post.author.imageUrl}
                   alt=""
                   className="h-10 w-10 rounded-full bg-gray-50"
+                  width={30}
                 />
                 <div className="text-sm leading-6">
                   <p className="font-semibold text-gray-900">

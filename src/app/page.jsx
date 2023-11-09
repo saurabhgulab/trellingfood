@@ -1,5 +1,5 @@
 "use client";
-import Image from "next/image";
+
 import Logo from "./images/logo.png";
 
 import Navbar from "./components/navbar";
