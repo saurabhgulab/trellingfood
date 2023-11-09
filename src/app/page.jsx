@@ -1,7 +1,5 @@
 "use client";
 
-import Logo from "./images/logo.png";
-
 import Navbar from "./components/navbar";
 import Footer from "./components/footer";
 import Banner from "./components/banner";
@@ -17,9 +15,6 @@ import Login from "./components/login";
 export default function Home() {
   return (
     <main>
-      {/* <div className="m-0 p-0 b-0 flex justify-center lg:items-stretch lg:justify-start md:items-stretch md:justify-start sm:items-stretch sm:justify-start">
-        <Image height={200} width={300} src={Logo} alt="Your Company" />
-      </div> */}
       <Navbar />
       <Banner />
       <About />
