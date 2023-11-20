@@ -1,10 +1,11 @@
 import { Inter } from "next/font/google";
+import Head from "next/head";
 import "./globals.css";
 
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Trellingfood - Results Driven Digital Marketing Agency",
+  title: "TrellingFood - Digital Marketing Agency That Delivers !",
   description:
     "Trellingfood is a leading Digital agency focused on delivering measurable results. Our Online Marketing Services focus on clear tangible goals by solving bottlenecks and adding impactful creativity across all platforms.",
 };

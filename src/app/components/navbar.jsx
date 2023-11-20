@@ -1,7 +1,4 @@
 import React from "react";
-import Image from "next/image";
-import Logo from "../images/logo.png";
-import { Fragment } from "react";
 import { Disclosure, Menu, Transition } from "@headlessui/react";
 import { Bars3Icon, BellIcon, XMarkIcon } from "@heroicons/react/24/outline";
 
@@ -18,7 +15,7 @@ function classNames(...classes) {
 
 const Navbar = () => {
   return (
-    <Disclosure as="nav" className="bg-gray ">
+    <Disclosure as="nav" className="">
       {({ open }) => (
         <>
           <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
@@ -44,8 +41,8 @@ const Navbar = () => {
                         href={item.href}
                         className={classNames(
                           item.current
-                            ? "bg-blue-900 text-white"
-                            : "text-gray-300 hover:bg-blue-700 hover:text-white",
+                            ? "bg-blue-700 text-white"
+                            : "blueGray-800 hover:bg-blue-700 hover:text-white",
                           "rounded-md px-3 py-2 text-sm font-medium"
                         )}
                         aria-current={item.current ? "page" : undefined}
@@ -68,8 +65,8 @@ const Navbar = () => {
                   href={item.href}
                   className={classNames(
                     item.current
-                      ? "bg-gray-900 text-white"
-                      : "text-gray-300 hover:bg-gray-700 hover:text-white",
+                      ? "bg-blue-700 blueGray-900"
+                      : "blueGray-800 hover:bg-blue-700 hover:text-white",
                     "block rounded-md px-3 py-2 text-base font-medium"
                   )}
                   aria-current={item.current ? "page" : undefined}
