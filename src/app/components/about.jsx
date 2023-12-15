@@ -1,12 +1,12 @@
 import Image from "next/image";
 import backgroundImage from "../images/xcsfdsfdasdasdsa.svg";
 const links = [
-  { name: "Web Design", href: "#" },
-  { name: "Development", href: "#" },
-  { name: "Branding", href: "#" },
-  { name: "Ecommerce", href: "#" },
-  { name: "Marketing", href: "#" },
-  { name: "SEO", href: "#" },
+  { name: "Web Design", href: "/" },
+  { name: "Development", href: "/" },
+  { name: "Branding", href: "/" },
+  { name: "Ecommerce", href: "/" },
+  { name: "Marketing", href: "/" },
+  { name: "SEO", href: "/" },
 ];
 
 const about = () => {
