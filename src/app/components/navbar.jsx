@@ -66,7 +66,7 @@ const Navbar = () => {
                   href={item.href}
                   className={classNames(
                     item.current
-                      ? "bg-blue-700 blueGray-900"
+                      ? "bg-blue-700 text-white"
                       : "blueGray-800 hover:bg-blue-700 hover:text-white",
                     "block rounded-md px-3 py-2 text-base font-medium"
                   )}
