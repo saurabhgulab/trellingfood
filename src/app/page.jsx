@@ -1,33 +1,36 @@
 "use client";
 
 // import Navbar from "./components/navbar";
-// import Footer from "./components/footer";
-// import Banner from "./components/banner";
-// import Features from "./components/features";
-// import About from "./components/about";
-// import Stats from "./components/stats";
+import Footer from "./components/footer";
+import Banner from "./components/banner";
+import Features from "./components/features";
+import About from "./components/about";
+import Service from "./components/service";
+import Contact from "./components/contact";
 // import Testimonial from "./components/testimonial";
-import Dummy from "./components/dummy";
-// import Blog from "./components/blog";
-// import Team from "./components/team";
-// import Clients from "./components/clients";
 // import Login from "./components/login";
+// import Blog from "./components/blog";
+
+// import Clients from "./components/clients";
+
+// import Dummy from "./components/dummy";
 
 export default function Home() {
   return (
     <main>
-      <Dummy />
-      {/* <Navbar />
+      {/* <Dummy /> */}
+      {/* <Navbar /> */}
       <Banner />
       <Features />
       <About />
-      <Stats />
-      <Testimonial />
-      <Blog />
-      <Team />
-      <Clients />
-      <Login />
-      <Footer /> */}
+
+      {/* <Testimonial /> */}
+      {/* <Blog /> */}
+      <Service />
+      <Contact />
+      {/* <Clients /> */}
+      {/* <Login /> */}
+      <Footer />
     </main>
   );
 }
