@@ -17,19 +17,15 @@
   }
 }
 
-/* body {
+#banner-body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
-} */
-
-.banner-image-1 {
-  margin: auto;
-  border-radius: 18%;
-  padding: auto;
-  border: 0cap;
+  background: #1dcd8d;
+}
+#features-body {
+  color: rgb(var(--foreground-rgb));
+  background: #f4f4f4;
+}
+#about-body {
+  color: rgb(var(--foreground-rgb));
+  background: #1a2529;
 }
