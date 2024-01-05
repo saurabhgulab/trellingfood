@@ -13,6 +13,8 @@
     "@heroicons/react": "^2.0.18",
     "@mui/material": "^5.14.17",
     "@mui/styled-engine-sc": "^6.0.0-alpha.5",
+    "@vercel/analytics": "^1.1.1",
+    "@vercel/speed-insights": "^1.0.2",
     "flowbite": "^2.1.1",
     "next": "14.0.1",
     "react": "^18",
