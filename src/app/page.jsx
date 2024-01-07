@@ -7,6 +7,7 @@ import Features from "./components/features";
 import About from "./components/about";
 import Service from "./components/service";
 import Contact from "./components/contact";
+
 // import Testimonial from "./components/testimonial";
 // import Login from "./components/login";
 // import Blog from "./components/blog";
@@ -27,6 +28,7 @@ export default function Home() {
       {/* <Testimonial /> */}
       {/* <Blog /> */}
       <Service />
+
       <Contact />
       {/* <Clients /> */}
       {/* <Login /> */}
