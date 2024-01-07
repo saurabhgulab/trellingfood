@@ -19,7 +19,7 @@ const banner = () => {
           />
 
           <div className="m-auto p-4 place-self-center lg:col-span-6 rounded-lg">
-            <h1 className="max-w-2xl p-2 mb-4 text-2xl font-extrabold tracking-tight leading-none md:text-3xl xl:text-5xl text-white">
+            <h1 className="max-w-2xl p-2 mb-4 text-2xl font-extrabold tracking-tight leading-none md:text-3xl xl:text-5xl text-white ">
               Where creativity meets strategy to elevate your presence in the
               digital age.
             </h1>
