@@ -18,15 +18,16 @@ const Contact = () => {
               className="text-emerald-300 hover:text-emerald-500 dark:hover:text-emerald-500"
             >
               <p className="max-w-2xl m-auto lg:mb-4 md:text-lg lg:text-xl">
-                Phone: +91-9810092808
+                +91-9810092808
               </p>
             </a>
+
             <a
               href="mailto:trellingfood@gmail.com"
               className="text-emerald-300 hover:text-emerald-500 dark:hover:text-emerald-500"
             >
               <p className="max-w-2xl m-auto lg:mb-4 md:text-lg lg:text-xl">
-                Email: trellingfood@gmail.com
+                trellingfood@gmail.com
               </p>
             </a>
           </div>
