@@ -14,7 +14,7 @@ const Contact = () => {
               Contact Us
             </h1>
             <a
-              href="https://wa.me/c/919810092808"
+              href="tel:919810092808"
               className="text-emerald-300 hover:text-emerald-500 dark:hover:text-emerald-500"
             >
               <p className="max-w-2xl m-auto lg:mb-4 md:text-lg lg:text-xl">
