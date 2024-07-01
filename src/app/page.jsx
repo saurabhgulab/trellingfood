@@ -18,21 +18,24 @@ import Contact from "./components/contact";
 
 export default function Home() {
   return (
-    <main>
-      {/* <Dummy /> */}
+    <>
       {/* <Navbar /> */}
-      <Banner />
-      <Features />
-      <About />
+      <main>
+        {/* <Dummy /> */}
 
-      {/* <Testimonial /> */}
-      {/* <Blog /> */}
-      <Service />
+        <Banner />
+        <Features />
+        <About />
 
-      <Contact />
-      {/* <Clients /> */}
-      {/* <Login /> */}
-      <Footer />
-    </main>
+        {/* <Testimonial /> */}
+        {/* <Blog /> */}
+        <Service />
+
+        <Contact />
+        {/* <Clients /> */}
+        {/* <Login /> */}
+        <Footer />
+      </main>
+    </>
   );
 }
