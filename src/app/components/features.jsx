@@ -22,6 +22,8 @@ const features = () => {
               alt=""
               width={400}
               height={400}
+              loading="eager"
+              priority={true}
             />
             <h2 className="text-center text-2xl tracking-tight leading-none font-extrabold text-emerald-500 md:text-3xl xl:text-5xl">
               {" "}
