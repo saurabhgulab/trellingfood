@@ -1,25 +1,19 @@
 import Link from "next/link";
-import styles from "./navbar.module.css";
+import { NAV_LINKS } from "../constants";
 
 const Navbar = () => {
   return (
-    <nav className={styles.navbar}>
-      <ul className={styles.navList}>
-        <li className={styles.navItem}>
-          <Link href="/">Home</Link>
-        </li>
-        <li className={styles.navItem}>
-          <Link href="/features">Features</Link>
-        </li>
-        <li className={styles.navItem}>
-          <Link href="/about">About Us</Link>
-        </li>
-        <li className={styles.navItem}>
-          <Link href="/services">Services</Link>
-        </li>
-        <li className={styles.navItem}>
-          <Link href="/contact">Contact</Link>
-        </li>
+    <nav className="flex justify-center max-container padding-container relative z-30 py-5">
+      <ul className="hidden h-full gap-12 lg:flex">
+        {NAV_LINKS.map((link) => (
+          <Link
+            href={link.href}
+            key={link.key}
+            className="regular-16 text-emerald-500 flex justify-center cursor-pointer pb-1.5 transition-all hover:font-bold"
+          >
+            {link.label}
+          </Link>
+        ))}
       </ul>
     </nav>
   );
