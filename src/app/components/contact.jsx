@@ -1,5 +1,3 @@
-"use client";
-
 import Image from "next/image";
 import contactImage from "../images/contact-image.jpg";
 import React from "react";

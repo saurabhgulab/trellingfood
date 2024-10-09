@@ -2,6 +2,7 @@
 import Link from "next/link";
 import { NAV_LINKS } from "../constants";
 import { useState, useEffect } from "react";
+import Footer from "./footer";
 
 const Navbar = () => {
   const [navbar, setNavbar] = useState(false);
@@ -11,15 +12,16 @@ const Navbar = () => {
   };
   useEffect(() => {}, [navbar]);
   return (
-    // <nav className="flex justify-center max-container padding-container relative z-30 py-5">
-    <nav className="bg-black">
+    <nav className="bg-black border-r-emerald-500">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center">
             <div className="flex-shrink-0 ">
-              <h3 className="max-w-xl p-2 m-4 text-2xl font-extrabold leading-none md:text-3xl xl:text-5xl text-emerald-500">
-                Trelling<span className="text-white">Food</span>
-              </h3>
+              <a href="/">
+                <h3 className="max-w-xl p-2  text-2xl font-extrabold leading-none md:text-3xl xl:text-5xl text-emerald-500">
+                  Trelling<span className="text-white">Food</span>
+                </h3>
+              </a>
             </div>
           </div>
           <div className="hidden md:block">
@@ -30,7 +32,7 @@ const Navbar = () => {
                     target=""
                     href={link.href}
                     key={link.key}
-                    className="regular-16 items-end block text-emerald-500 justify-center cursor-pointer pb-1.5 transition-all hover:font-bold"
+                    className="items-end block text-emerald-500 justify-center cursor-pointer pb-1.5 transition-all hover:font-bold"
                   >
                     {link.label}
                   </Link>
@@ -80,7 +82,7 @@ const Navbar = () => {
       </div>
       {navbar && (
         <div className="md:hidden">
-          <div className="duration-500 text-center px-2 pt-2 pb-3 space-y-2 sm:px-4 sm:py-2">
+          <div className="text-end px-2 pt-2 pb-3 space-y-2 sm:px-4 sm:py-2">
             <ul className="justify-between px-4 mx-auto gap-12 lg:max-w-7xl md:items-center md:flex md:px-8">
               {NAV_LINKS.map((link) => (
                 <Link
@@ -93,6 +95,7 @@ const Navbar = () => {
                 </Link>
               ))}
             </ul>
+            <Footer />
           </div>
         </div>
       )}
