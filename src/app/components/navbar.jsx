@@ -5,6 +5,7 @@ import { useState, useEffect } from "react";
 
 const Navbar = () => {
   const [navbar, setNavbar] = useState(false);
+
   const toggleNavbar = () => {
     setNavbar(!navbar);
   };
@@ -15,8 +16,10 @@ const Navbar = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center">
-            <div className="flex-shrink-0">
-              <Link href="/">Logo</Link>
+            <div className="flex-shrink-0 ">
+              <h3 className="max-w-xl p-2 m-4 text-2xl font-extrabold leading-none md:text-3xl xl:text-5xl text-emerald-500">
+                Trelling<span className="text-white">Food</span>
+              </h3>
             </div>
           </div>
           <div className="hidden md:block">
@@ -24,6 +27,7 @@ const Navbar = () => {
               <ul className="justify-between px-4 mx-auto gap-12 lg:max-w-7xl md:items-center md:flex md:px-8">
                 {NAV_LINKS.map((link) => (
                   <Link
+                    target=""
                     href={link.href}
                     key={link.key}
                     className="regular-16 items-end block text-emerald-500 justify-center cursor-pointer pb-1.5 transition-all hover:font-bold"
@@ -76,13 +80,14 @@ const Navbar = () => {
       </div>
       {navbar && (
         <div className="md:hidden">
-          <div className="text-center px-2 pt-2 pb-3 space-y-2 sm:px-4 sm:py-2">
+          <div className="duration-500 text-center px-2 pt-2 pb-3 space-y-2 sm:px-4 sm:py-2">
             <ul className="justify-between px-4 mx-auto gap-12 lg:max-w-7xl md:items-center md:flex md:px-8">
               {NAV_LINKS.map((link) => (
                 <Link
                   href={link.href}
                   key={link.key}
                   className="regular-16 block text-emerald-500 justify-center cursor-pointer pb-1.5 transition-all hover:font-bold"
+                  onClick={toggleNavbar}
                 >
                   {link.label}
                 </Link>
