@@ -1,23 +1,12 @@
 import Image from "next/image";
 import bannerImage from "../images/banner-image.jpg";
 import React from "react";
-import { XMarkIcon } from "@heroicons/react/20/solid";
 
 const banner = () => {
   return (
     <>
       <div className="p-6 m-auto" id="banner-body">
         <div className="grid max-w-screen-xl m-auto p-4 lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12 bg-black rounded-xl">
-          {/* <Image
-            src={logoImage}
-            alt="Two each of gray, white, and black shirts laying flat."
-            className="object-cover object-center"
-            width={150}
-            height={150}
-            loading="eager"
-            priority={true}
-          /> */}
-
           <div className="m-auto p-4 place-self-center lg:col-span-6 rounded-lg">
             <h1 className="max-w-2xl p-2 mb-4 text-2xl font-extrabold tracking-tight leading-none md:text-3xl xl:text-5xl text-white ">
               Where <span className="text-emerald-500">creativity</span> meets
