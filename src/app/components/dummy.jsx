@@ -1,5 +1,3 @@
-"use client";
-
 import Image from "next/image";
 import About from "../dummy/About.svg";
 import Home from "../dummy/Home.svg";

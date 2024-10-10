@@ -1,6 +1,3 @@
-"use client";
-
-// import Navbar from "./components/navbar";
 import Footer from "./components/footer";
 import Banner from "./components/banner";
 import Features from "./components/features";
@@ -14,15 +11,10 @@ import Contact from "./components/contact";
 
 // import Clients from "./components/clients";
 
-// import Dummy from "./components/dummy";
-
 export default function Home() {
   return (
     <>
-      {/* <Navbar /> */}
       <main>
-        {/* <Dummy /> */}
-
         <Banner />
         <Features />
         <About />

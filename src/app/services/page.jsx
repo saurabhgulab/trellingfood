@@ -1,37 +1,18 @@
-"use client";
-
-import Image from "next/image";
-import serviceImage from "../images/services-image.jpg";
 import React from "react";
+import Service from "../components/service";
+import Features from "../components/features";
+import Footer from "../components/footer";
+import Contact from "../components/contact";
 
-const Service = () => {
+const Page = () => {
   return (
     <>
-      <div className="p-6 m-auto bg-emerald-200">
-        <div className="grid max-w-screen-xl m-auto p-4 lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12  rounded-xl">
-          <div className="lg:m-6 lg:col-span-6 lg:flex rounded-lg p-8">
-            <Image
-              src={serviceImage}
-              alt="featuresImage"
-              className=" m-auto rounded-xl shadow-xl ring-2 ring-gray-400/10 sm:w-[57rem] md:auto lg:auto"
-              width={500}
-              height={180}
-            />
-          </div>
-          <div className="m-auto p-4 place-self-center lg:col-span-6 rounded-lg bg-white">
-            <h1 className="max-w-2xl p-2 mb-4 text-2xl font-extrabold tracking-tight leading-none md:text-3xl xl:text-5xl text-dark">
-              We'll help perfect your business model.
-            </h1>
-            <p className="max-w-2xl m-auto p-2 lg:mb-4 md:text-lg lg:text-xl text-dark">
-              Outline a comprehensive business plan that includes target market
-              analysis, services offered, pricing strategy, and growth
-              projections.
-            </p>
-          </div>
-        </div>
-      </div>
+      <Service />
+      <Features />
+      <Contact />
+      <Footer />
     </>
   );
 };
 
-export default Service;
+export default Page;
