@@ -17,11 +17,11 @@ const Navbar = () => {
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center">
             <div className="flex-shrink-0 ">
-              <a href="/">
+              <Link href="/">
                 <h3 className="max-w-xl p-2  text-2xl font-extrabold leading-none md:text-3xl xl:text-5xl text-emerald-500">
                   Trelling<span className="text-white">Food</span>
                 </h3>
-              </a>
+              </Link>
             </div>
           </div>
           <div className="hidden md:block">
