@@ -42,7 +42,7 @@ const banner = () => {
             <Image
               src={bannerImage}
               alt="featuresImage"
-              className="m-auto rounded-xl shadow-xl ring-2 ring-gray-400/10 sm:w-[57rem] md:auto lg:auto"
+              className="card m-auto rounded-xl shadow-xl ring-2 ring-emerald-200 sm:w-[57rem] md:auto lg:auto"
               width={600}
               height={200}
               loading="eager"
