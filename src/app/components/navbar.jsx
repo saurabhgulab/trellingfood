@@ -13,7 +13,7 @@ const Navbar = () => {
   useEffect(() => {}, [navbar]);
   return (
     <nav className="bg-black border-r-emerald-500">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className=" max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center">
             <div className="flex-shrink-0 ">
@@ -26,13 +26,13 @@ const Navbar = () => {
           </div>
           <div className="hidden md:block">
             <div className="ml-4 flex items-center space-x-4">
-              <ul className="justify-between px-4 mx-auto gap-12 lg:max-w-7xl md:items-center md:flex md:px-8">
+              <ul className=" justify-between px-4 mx-auto gap-12 lg:max-w-7xl md:items-center md:flex md:px-8">
                 {NAV_LINKS.map((link) => (
                   <Link
                     target=""
                     href={link.href}
                     key={link.key}
-                    className="items-end block text-emerald-500 justify-center cursor-pointer pb-1.5 transition-all hover:font-bold"
+                    className=" items-end text-emerald-500 justify-center cursor-pointer p-2 transition-all hover:font-bold"
                   >
                     {link.label}
                   </Link>
