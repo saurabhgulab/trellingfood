@@ -9,7 +9,7 @@ const Service = () => {
     <>
       <div className="p-6 m-auto bg-emerald-200">
         <div className="grid max-w-screen-xl m-auto p-4 lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12  rounded-xl">
-          <div className="lg:m-6 lg:col-span-6 lg:flex rounded-lg p-8">
+          <div className="bg-black lg:m-6 lg:col-span-6 lg:flex rounded-lg p-2">
             <Image
               src={serviceImage}
               alt="featuresImage"

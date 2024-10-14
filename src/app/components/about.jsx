@@ -17,7 +17,7 @@ const about = () => {
             </p>
           </div>
           <div className="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-4xl">
-            <dl className="grid max-w-xl grid-cols-1 gap-x-8 gap-y-10 lg:max-w-none lg:grid-cols-2 lg:gap-y-16">
+            <dl className="grid grid-col-1 max-w-xl gap-x-8 gap-y-10 lg:max-w-none lg:grid-cols-2 lg:gap-y-16">
               <div className="relative pl-16">
                 <dt className="text-base font-semibold leading-7 text-emerald-500 text-transform: uppercase">
                   <div className="absolute left-0 top-0 flex h-10 w-10 items-center justify-center rounded-lg bg-emerald-500">
@@ -36,7 +36,7 @@ const about = () => {
                       />
                     </svg>
                   </div>
-                  Business Execution
+                  Execution
                 </dt>
                 <dd className="mt-2 text-base leading-7 text-white">
                   Strategic Campaign Implementation, Agile Optimization Tactics,
@@ -62,7 +62,7 @@ const about = () => {
                       />
                     </svg>
                   </div>
-                  Business Consultancy
+                  Consultancy
                 </dt>
                 <dd className="mt-2 text-base leading-7 text-white">
                   Tailored Subscription Plans, Guaranteed ROI Analytics,
@@ -88,7 +88,7 @@ const about = () => {
                       />
                     </svg>
                   </div>
-                  Business Monitoring
+                  Monitoring
                 </dt>
                 <dd className="mt-2 text-base leading-7 text-white">
                   Real-time Analytics Monitoring, Performance Metrics Tracking,
@@ -114,13 +114,72 @@ const about = () => {
                       />
                     </svg>
                   </div>
-                  Business Branding
+                  Branding
                 </dt>
                 <dd className="mt-2 text-base leading-7 text-white">
                   The process of creating a distinct identity for a business in
                   the minds of your target audience and the general population.
                   At its core, branding consists of a company's name and logo,
                   visual identity design, mission, values, and tone of voice.
+                </dd>
+              </div>
+              <div className="relative pl-16">
+                <dt className="text-base font-semibold leading-7 text-emerald-500 text-transform: uppercase">
+                  <div className="absolute left-0 top-0 flex h-10 w-10 items-center justify-center rounded-lg bg-emerald-500">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke-width="1.5"
+                      stroke="currentColor"
+                      className="h-6 w-6 text-white"
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        d="M6 13.5V3.75m0 9.75a1.5 1.5 0 0 1 0 3m0-3a1.5 1.5 0 0 0 0 3m0 3.75V16.5m12-3V3.75m0 9.75a1.5 1.5 0 0 1 0 3m0-3a1.5 1.5 0 0 0 0 3m0 3.75V16.5m-6-9V3.75m0 3.75a1.5 1.5 0 0 1 0 3m0-3a1.5 1.5 0 0 0 0 3m0 9.75V10.5"
+                      />
+                    </svg>
+                  </div>
+                  Analytics
+                </dt>
+                <dd className="mt-2 text-base leading-7 text-white">
+                  Social media marketing analytics tracks engagement, reach,
+                  impressions, and conversions to measure campaign
+                  effectiveness, optimize strategies, and drive data-driven
+                  decision-making for improved performance.
+                </dd>
+              </div>
+              <div className="relative pl-16">
+                <dt className="text-base font-semibold leading-7 text-emerald-500 text-transform: uppercase">
+                  <div className="absolute left-0 top-0 flex h-10 w-10 items-center justify-center rounded-lg bg-emerald-500">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      strokeWidth={1.5}
+                      stroke="currentColor"
+                      className="h-6 w-6 text-white"
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        d="M10.5 6a7.5 7.5 0 1 0 7.5 7.5h-7.5V6Z"
+                      />
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        d="M13.5 10.5H21A7.5 7.5 0 0 0 13.5 3v7.5Z"
+                      />
+                    </svg>
+                  </div>
+                  Creativity
+                </dt>
+                <dd className="mt-2 text-base leading-7 text-white">
+                  Social media creativity involves crafting engaging, original
+                  content that resonates with audiences, leveraging visuals,
+                  storytelling, trends, and interactivity to boost brand
+                  awareness and encourage user engagement.
                 </dd>
               </div>
             </dl>
