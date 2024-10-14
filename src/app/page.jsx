@@ -4,8 +4,9 @@ import Features from "./components/features";
 import About from "./components/about";
 import Service from "./components/service";
 import Contact from "./components/contact";
+// import Strip1 from "./components/strip1";
 
-// import Testimonial from "./components/testimonial";
+import Testimonial from "./components/testimonial";
 // import Login from "./components/login";
 // import Blog from "./components/blog";
 
@@ -16,10 +17,11 @@ export default function Home() {
     <>
       <main>
         <Banner />
+        {/* <Strip1 /> */}
         <Features />
         <About />
 
-        {/* <Testimonial /> */}
+        <Testimonial />
         {/* <Blog /> */}
         <Service />
 
