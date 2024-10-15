@@ -4,7 +4,7 @@ import Features from "./components/features";
 import About from "./components/about";
 import Service from "./components/service";
 import Contact from "./components/contact";
-// import Strip1 from "./components/strip1";
+import Strip1 from "./components/strip1";
 
 import Testimonial from "./components/testimonial";
 // import Login from "./components/login";
@@ -17,9 +17,10 @@ export default function Home() {
     <>
       <main>
         <Banner />
-        {/* <Strip1 /> */}
         <Features />
+        <Strip1 />
         <About />
+        <Strip1 />
 
         <Testimonial />
         {/* <Blog /> */}
