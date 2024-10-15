@@ -1,13 +1,10 @@
 const about = () => {
   return (
     <>
-      <div
-        className="relative isolate overflow-hidden py-24 sm:py-32"
-        id="about-body"
-      >
-        <div className="mx-auto max-w-7xl px-6 lg:px-8">
+      <div className="bg-gray-700 relative isolate overflow-hidden py-12 sm:py-12">
+        <div className="mx-auto max-w-7xl px-4 lg:px-4">
           <div className="mx-auto max-w-2xl lg:mx-0">
-            <h2 className="p-2 text-4xl font-bold tracking-tight text-emerald-500 sm:text-6xl">
+            <h2 className="mx-auto p-2 text-4xl font-bold tracking-tight text-emerald-500 sm:text-6xl">
               Our Services
             </h2>
             <p className="max-w-2xl m-auto p-2 font-sans lg:mb-4 md:text-lg lg:text-xl text-white">
@@ -16,6 +13,7 @@ const about = () => {
               business collaborations and long-term success
             </p>
           </div>
+
           <div className="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-4xl">
             <dl className="grid grid-col-1 max-w-xl gap-x-8 gap-y-10 lg:max-w-none lg:grid-cols-2 lg:gap-y-16">
               <div className="relative pl-16">
@@ -130,7 +128,7 @@ const about = () => {
                       xmlns="http://www.w3.org/2000/svg"
                       fill="none"
                       viewBox="0 0 24 24"
-                      stroke-width="1.5"
+                      strokeWidth="1.5"
                       stroke="currentColor"
                       className="h-6 w-6 text-white"
                     >

@@ -26,13 +26,13 @@ const Navbar = () => {
           </div>
           <div className="hidden md:block">
             <div className="ml-4 flex items-center space-x-4">
-              <ul className=" justify-between px-4 mx-auto gap-12 lg:max-w-7xl md:items-center md:flex md:px-8">
+              <ul className="justify-between px-4 mx-auto gap-12 lg:max-w-7xl md:items-center md:flex md:px-8">
                 {NAV_LINKS.map((link) => (
                   <Link
                     target=""
                     href={link.href}
                     key={link.key}
-                    className=" items-end text-emerald-500 justify-center cursor-pointer p-2 transition-all hover:font-bold"
+                    className="items-end border-2 rounded-lg border-emerald-500 text-emerald-500 justify-center cursor-pointer p-2 transition-all  hover:bg-emerald-50 focus:ring-4"
                   >
                     {link.label}
                   </Link>
