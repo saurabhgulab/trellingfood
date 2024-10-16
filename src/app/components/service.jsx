@@ -20,11 +20,11 @@ const Service = () => {
           </div>
           <div className="m-auto p-4 place-self-center lg:col-span-6 rounded-lg bg-white">
             <h1 className="max-w-2xl p-2 mb-4 text-2xl font-extrabold tracking-tight leading-none md:text-3xl xl:text-5xl text-dark">
-              We'll help perfect your business model.
+              We'll help you create a perfect business model for you.
             </h1>
             <p className="max-w-2xl m-auto p-2 lg:mb-4 md:text-lg lg:text-xl text-dark">
-              Outline a comprehensive business plan that includes target market
-              analysis, services offered, pricing strategy, and growth
+              Outlining a comprehensive business plan that includes target
+              market analysis, services offered, pricing strategy, and growth
               projections.
             </p>
           </div>
