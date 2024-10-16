@@ -17,74 +17,10 @@
   }
 }
 
-#banner-body {
-  color: rgb(var(--foreground-rgb));
-  background: #1dcd8d;
-}
-#features-body {
-  color: rgb(var(--foreground-rgb));
-  background: #f4f4f4;
-}
-
-h1 {
-  color: black;
-}
-.card {
-  padding: 7px;
-  background-color: black !important;
-  text-align: center;
-  border-radius: 10px;
-  position: relative;
-}
-
 @property --angle {
   syntax: "<angle>";
   initial-value: 0deg;
   inherits: false;
-}
-
-.card::after,
-.card::before {
-  content: "";
-  position: absolute;
-  height: 110%;
-  width: 110%;
-  background-image: conic-gradient(
-    from var(--angle),
-    #ff4545,
-    #00ff99,
-    #006aff,
-    #ff0095,
-    #ff4545
-  );
-  top: 50%;
-  left: 50%;
-  translate: -50% -50%;
-  z-index: -1;
-  padding: 2px;
-  border-radius: 10px;
-  border-color: #00ff99;
-  animation: 3s spin linear infinite;
-}
-.card::before {
-  filter: blur(1.5rem);
-}
-@keyframes spin {
-  from {
-    --angle: 0deg;
-  }
-  to {
-    --angle: 360deg;
-  }
-}
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-}
-
-body {
-  background-color: transparent;
 }
 
 .wrapper {
@@ -118,8 +54,6 @@ body {
 .itemLeft {
   width: 200px;
   height: 200px;
-  background-color: #e11d48;
-  border-radius: 6px;
   position: absolute;
   animation-timing-function: linear;
   animation-duration: 30s;
@@ -161,4 +95,14 @@ body {
 
 .item8 {
   animation-delay: calc(30s / 8 * (8 - 8) * -1);
+}
+
+.card-animate {
+  margin: 0 auto;
+  padding: 2em;
+  width: 300px;
+  background: #1c1f2b;
+  text-align: center;
+  border-radius: 10px;
+  position: relative;
 }
