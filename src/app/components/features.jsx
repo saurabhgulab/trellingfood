@@ -5,7 +5,7 @@ const features = () => {
   return (
     <>
       <section
-        className="relative isolate overflow-hidden px-6 py-24 sm:py-32 lg:px-8"
+        className="bg-slate-100 relative isolate overflow-hidden px-6 py-24 sm:py-32 lg:px-8"
         id="features-body"
       >
         <div className=" mx-auto max-w-2xl lg:max-w-4xl">

@@ -12,13 +12,13 @@ const Navbar = () => {
   };
   useEffect(() => {}, [navbar]);
   return (
-    <nav className="bg-black border-r-emerald-500">
+    <nav className="bg-black p-4 border-r-emerald-500">
       <div className=" max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center">
             <div className="flex-shrink-0 ">
               <Link href="/">
-                <h3 className="max-w-xl p-2  text-2xl font-extrabold leading-none md:text-3xl xl:text-5xl text-emerald-500">
+                <h3 className="max-w-xl  text-3xl font-extrabold leading-none md:text-3xl xl:text-5xl text-emerald-500">
                   Trelling<span className="text-white">Food</span>
                 </h3>
               </Link>
@@ -32,7 +32,7 @@ const Navbar = () => {
                     target=""
                     href={link.href}
                     key={link.key}
-                    className="items-end border-2 rounded-lg border-emerald-500 text-emerald-500 justify-center cursor-pointer p-2 transition-all  hover:bg-emerald-50 focus:ring-4"
+                    className="items-end border rounded-lg border-emerald-400 text-emerald-500 justify-center cursor-pointer p-2 transition-all  hover:bg-emerald-50 focus:ring-4"
                   >
                     {link.label}
                   </Link>

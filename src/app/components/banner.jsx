@@ -1,6 +1,7 @@
 import Image from "next/image";
 import bannerImage from "../images/banner-image.jpg";
 import React from "react";
+import Link from "next/link";
 
 const banner = () => {
   return (
@@ -18,7 +19,7 @@ const banner = () => {
               economic growth.
             </p>
 
-            <a
+            <Link
               href="/services"
               className="inline-flex items-center justify-center p-3 text-base font-medium text-center text-emerald-500 border border-emerald-500 rounded-lg hover:bg-emerald-50 focus:ring-4 "
             >
@@ -35,14 +36,14 @@ const banner = () => {
                   clipRule="evenodd"
                 ></path>
               </svg>
-            </a>
+            </Link>
           </div>
 
           <div className="lg:m-6 lg:col-span-5 lg:flex rounded-lg">
             <Image
               src={bannerImage}
               alt="featuresImage"
-              className="card m-auto rounded-xl shadow-xl ring-2 ring-emerald-200 sm:w-[57rem] md:auto lg:auto"
+              className="p-2 m-auto rounded-xl shadow-xl ring-2 ring-emerald-500 sm:w-[57rem] md:auto lg:auto"
               width={600}
               height={200}
               loading="eager"

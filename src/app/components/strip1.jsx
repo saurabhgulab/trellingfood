@@ -10,31 +10,63 @@ import image8 from "../images/E-commerce Workshop.png";
 
 export default function strip1() {
   return (
-    <div className="strip-1 bg-gray-700 relative isolate flex items-center overflow-hidden p-6 sm:px-3.5 sm:before:flex-1">
+    <div className="strip-1 my-4 bg-gray-100 relative isolate flex items-center overflow-hidden p-6 sm:px-3.5 sm:before:flex-1">
       <div className="wrapper">
         <div>
-          <Image className="itemLeft item1" src={image1} alt="image1" />
+          <Image
+            className="bg-emerald-400 rounded-md itemLeft item1"
+            src={image1}
+            alt="image1"
+          />
         </div>
         <div>
-          <Image className="itemLeft item2" src={image2} alt="image1" />
+          <Image
+            className="bg-emerald-400 rounded-md itemLeft item2"
+            src={image2}
+            alt="image1"
+          />
         </div>
         <div>
-          <Image className="itemLeft item3" src={image3} alt="image1" />
+          <Image
+            className="bg-emerald-400 rounded-md itemLeft item3"
+            src={image3}
+            alt="image1"
+          />
         </div>
         <div>
-          <Image className="itemLeft item4" src={image4} alt="image1" />
+          <Image
+            className="bg-emerald-400 rounded-md itemLeft item4"
+            src={image4}
+            alt="image1"
+          />
         </div>
         <div>
-          <Image className="itemLeft item5" src={image5} alt="image1" />
+          <Image
+            className="bg-emerald-400 rounded-md itemLeft item5"
+            src={image5}
+            alt="image1"
+          />
         </div>
         <div>
-          <Image className="itemLeft item6" src={image6} alt="image1" />
+          <Image
+            className="bg-emerald-400 rounded-md itemLeft item6"
+            src={image6}
+            alt="image1"
+          />
         </div>
         <div>
-          <Image className="itemLeft item7" src={image7} alt="image1" />
+          <Image
+            className="bg-emerald-400 rounded-md itemLeft item7"
+            src={image7}
+            alt="image1"
+          />
         </div>
         <div>
-          <Image className="itemLeft item8" src={image8} alt="image1" />
+          <Image
+            className="bg-emerald-400 rounded-md itemLeft item8"
+            src={image8}
+            alt="image1"
+          />
         </div>
       </div>
     </div>
