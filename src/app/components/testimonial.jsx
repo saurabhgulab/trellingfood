@@ -59,7 +59,7 @@ const testimonial = () => {
           <SwiperSlide>
             <div className="max-w-6xl p-10 mx-auto">
               <main className="relative z-20 w-full mt-8 md:flex md:items-center xl:mt-12">
-                <div className="absolute w-full bg-black -z-10 md:h-96 rounded-2xl"></div>
+                <div className="absolute w-full bg-emerald-200 -z-10 md:h-96 rounded-2xl"></div>
 
                 <div className="w-full p-6 bg-emerald-200 md:flex md:items-center rounded-2xl md:bg-transparent md:p-0 lg:px-12 md:justify-evenly">
                   <Image
@@ -70,13 +70,13 @@ const testimonial = () => {
 
                   <div className="mt-2 md:mx-6">
                     <div>
-                      <p className="text-xl font-bold tracking-tight text-white">
+                      <p className="text-xl font-bold tracking-tight text-black">
                         Alice
                       </p>
-                      <p className="text-white ">Social Media Intern</p>
+                      <p className="text-black ">Social Media Intern</p>
                     </div>
 
-                    <p className="mt-4 text-lg leading-relaxed text-white md:text-xl">
+                    <p className="mt-4 text-lg leading-relaxed text-black md:text-xl">
                       {" "}
                       “She develops and implements social media strategies,
                       monitors analytics, and interacts with followers to foster
