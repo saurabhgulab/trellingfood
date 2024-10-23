@@ -1,8 +1,26 @@
+"use client";
 import Image from "next/image";
 import contactImage from "../images/contact-image.jpg";
-import React from "react";
+import React, { useRef } from "react";
 
 const Contact = () => {
+  const form = useRef();
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm("YOUR_SERVICE_ID", "YOUR_TEMPLATE_ID", form.current, {
+        publicKey: "YOUR_PUBLIC_KEY",
+      })
+      .then(
+        () => {
+          console.log("SUCCESS!");
+        },
+        (error) => {
+          console.log("FAILED...", error.text);
+        }
+      );
+  };
   return (
     <>
       <div className="p-6 m-auto bg-black">
@@ -11,6 +29,15 @@ const Contact = () => {
             <h1 className="max-w-2xl mb-8 text-2xl font-extrabold tracking-tight leading-none md:text-3xl xl:text-5xl text-emerald-500">
               Contact Us
             </h1>
+            <form ref={form} onSubmit={sendEmail}>
+              <label>Name</label>
+              <input type="text" name="user_name" />
+              <label>Email</label>
+              <input type="email" name="user_email" />
+              <label>Message</label>
+              <textarea name="message" />
+              <input type="submit" value="Send" />
+            </form>
             <a
               href="tel:919810092808"
               className="text-emerald-300 hover:text-emerald-500 dark:hover:text-emerald-500"
