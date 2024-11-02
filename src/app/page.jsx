@@ -7,7 +7,7 @@ import Contact from "./components/contact";
 import Strip1 from "./components/strip1";
 import Strip2 from "./components/strip2";
 
-import Testimonial from "./components/testimonial";
+// import Testimonial from "./components/testimonial";
 // import Login from "./components/login";
 // import Blog from "./components/blog";
 
@@ -24,7 +24,7 @@ export default function Home() {
         <About />
         <Strip1 />
 
-        <Testimonial />
+        {/* <Testimonial /> */}
         {/* <Blog /> */}
         <Service />
 
