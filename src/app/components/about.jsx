@@ -1,7 +1,7 @@
 const about = () => {
   return (
     <>
-      <div className="bg-gray-700 relative isolate overflow-hidden py-8 sm:py-12">
+      <div className="bg-black relative isolate overflow-hidden py-8 sm:py-12">
         <div className="mx-auto max-w-7xl px-4 lg:px-4">
           <div className="mx-auto max-w-2xl lg:mx-0">
             <h2 className="mx-auto p-2 text-4xl font-bold tracking-tight text-emerald-500 sm:text-6xl">
