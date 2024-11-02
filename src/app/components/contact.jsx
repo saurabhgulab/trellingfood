@@ -5,6 +5,9 @@ import React, { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
 import Swal from "sweetalert2";
 
+const Refresh = () => {
+  window.location.reload(true);
+};
 const Contact = () => {
   const formRef = useRef();
   const [form, setForm] = useState({
@@ -33,16 +36,14 @@ const Contact = () => {
       .then(
         () => {
           setLoading(false);
+
           Swal.fire({
             title: "Success!",
             text: "Our team will connect within 24-36 hours.",
             icon: "success",
           });
-          setForm({
-            name: "",
-            email: "",
-            message: "",
-          });
+
+          setForm(form);
         },
         (error) => {
           setLoading(false);
@@ -63,7 +64,7 @@ const Contact = () => {
             <h1 className="max-w-2xl mb-8 text-2xl font-extrabold tracking-tight leading-none md:text-3xl xl:text-5xl text-emerald-500">
               Contact Us
             </h1>
-            <div className="my-2">
+            {/* <div className="my-2">
               <form
                 ref={formRef}
                 onSubmit={sendEmail}
@@ -104,7 +105,7 @@ const Contact = () => {
                   Submit
                 </button>
               </form>
-            </div>
+            </div> */}
             <a
               href="tel:919810092808"
               className="text-emerald-300 hover:text-emerald-500 dark:hover:text-emerald-500"
