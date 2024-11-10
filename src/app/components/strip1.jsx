@@ -10,11 +10,11 @@ import image8 from "../images/E-commerce Workshop.png";
 
 export default function strip1() {
   return (
-    <div className="strip-1 my-4 bg-gray-100 relative isolate flex items-center overflow-hidden p-6 sm:px-3.5 sm:before:flex-1">
+    <div className="strip-1 my-4 bg-emerald-100 relative isolate flex items-center overflow-hidden p-6 sm:px-3.5 sm:before:flex-1">
       <div className="wrapper">
         <div>
           <Image
-            className="bg-emerald-400 rounded-md itemLeft item1"
+            className="bg-emerald-400 border border-solid rounded-md itemLeft item1"
             src={image1}
             alt="image1"
           />
