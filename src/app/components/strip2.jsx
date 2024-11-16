@@ -11,7 +11,7 @@ const strip2 = () => {
             <span className="text-emerald-500 mx-3">Trusted</span> By
           </h1>
           <p className="max-w-2xl m-auto p-2 font-sans  md:text-lg lg:text-xl text-white">
-            The World's Leading and Largest{" "}
+            The World's Leading and the Largest{" "}
             <span className="text-emerald-500">Food</span> Enterprises
           </p>
         </div>
